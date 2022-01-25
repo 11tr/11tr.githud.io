@@ -1,0 +1,76 @@
+/*https://coolors.co/c5fffd-88d9e6-8b8bae-526760-374b4a-0f110c*/
+
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:50%;
+	background-color:#F0FFFF;
+}
+
+main{
+	width:800px;
+	height:600px;
+	display:grid;
+	grid-template-rows:60px auto;
+}
+
+section{
+	border:3px solid #7B68EE;
+	padding:20px;
+	border-radius:25px;
+	background-color:#FFFAFA;
+	color:#6A5ACD;
+	font-size:25px;
+	font-family:Helvetica;
+}
+
+#menu{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	padding:5px;
+	grid-gap:10px;
+}
+
+#menu > input{
+	background-color: #FFFAFA;
+	color:#191970;
+	font-size:20px;
+	font-family:'Comic Sans MS';
+	border:2px solid rad;
+	border-radius:15px;
+}
+
+#menu > input:hover{
+	border:2px solid #D8BFD8;
+	background-color:#6495ED;
+	color:#FFFAF0;
+}
+
+#butt{
+	grid-template-columns:2fr 2fr 2fr;
+	padding:3px;
+	grid-gap:10px;
+	height:30px;
+	display:grid;
+}
+
+#butt > input{
+	background-color: #69DDFF;
+	color:#374B4A;
+	font-size:10px;
+	font-family:'Comic Sans MS';
+	border:0px solid rad;
+	border-radius:15px;
+}
+
+#butt > input:hover{
+	border:2px solid #D8BFD8;
+	background-color:#6495ED;
+	color:#FFFAF0;
+}
+
+img{
+	width:300px;
+	
+}
